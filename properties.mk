@@ -116,23 +116,23 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.df.iwlan_mux=9 \
     persist.data.df.mux_count=8 \
     persist.data.df.ul_mode=5 \
-    persist.data.mode=concurrent \
     persist.data.netmgrd.qos.enable=true \
     persist.data.wda.enable=true \
     persist.radio.VT_CAM_INTERFACE=2 \
-    persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.atfwd.start=true \
     persist.radio.multisim.config=dsds \
     persist.radio.schd.cache=3500 \
     persist.rmnet.data.enable=true \
+    persist.vendor.data.mode=concurrent \
     persist.vendor.qti.telephony.vt_cam_interface=1 \
+    persist.vendor.radio.apm_sim_not_pwdn=1 \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
     ril.subscription.types=NV,RUIM \
     rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so \
     ro.telephony.default_network=22,20 \
-    ro.use_data_netmgrd=true \
+    ro.vendor.use_data_netmgrd=true \
     telephony.lteOnCdmaDevice=1
 
 # Sensor
